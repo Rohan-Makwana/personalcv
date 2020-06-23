@@ -139,35 +139,29 @@ tr, td {
 #contact{
   text-align: center;
 }
-@media screen and (max-width:900px) {
-  .of-languages{
+.languages-table
+{
+    margin:auto;
+    border-spacing:1rem;
+    table-layout:fixed;
+}
+@media screen and (max-width:600px)
+{
+    .languages-table{
     width: 100%;
     margin: auto auto auto 10%;
-    overflow: scroll;
-    column-width: 15rem;
-    border-spacing: 5rem;
-  }
+    overflow-x: auto;
+    column-width: 10rem;
+    border-spacing:0.625rem;
+    }
 }
+@media screen and (max-width:600px)
+{
+    .of-languages{
+        overflow:auto;
+    }
 
-.of-languages {
-  margin-left: 30%;
-  border-spacing: 20px;
-  width: 50%;
-  height: auto;
 }
-.languages{
-  width:100%;
-  height:auto;
-}
-#languages{
-  overflow: auto;
-}
-@media screen and (max-width:900px) {
-  .languages-table {
-    overflow: scroll;
-  }
-}
-
 @media screen and (max-width:600px) {
   .skilltable {
     width: 100%;
