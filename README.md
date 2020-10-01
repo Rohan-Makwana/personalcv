@@ -1,2 +1,4 @@
 # personalcv
-My personal site
+Rohan Makwana's personal site
+
+I'm a web developer
